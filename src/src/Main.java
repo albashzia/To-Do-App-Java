@@ -3,6 +3,10 @@ class Main{
 
     }
 
+    static void saveDataToFile(){
+
+    }
+
     public static void main() {
 
     }
