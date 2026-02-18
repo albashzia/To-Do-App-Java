@@ -7,7 +7,13 @@ class Main{
     static final String FILE = "tasks.txt";
 
     static void getDataFromFile(){
+        try{
+            File file = new File(FILE);
 
+        }
+        catch (Exception e1){
+            System.out.println(e1.getMessage());
+        }
     }
 
     static void saveDataToFile(){
