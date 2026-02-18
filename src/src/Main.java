@@ -41,6 +41,12 @@ class Main{
         }
     }
 
+    static void displayTitles(){
+        for(String s : titles){
+            System.out.println(s);
+        }
+    }
+
     public static void main() {
     }
 }
