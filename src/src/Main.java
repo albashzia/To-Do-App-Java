@@ -53,6 +53,13 @@ class Main{
         }
     }
 
+    static void displayTasksAndDetails(){
+        for (int i = 0; i < titles.size(); i++){
+            System.out.println(titles.get(i));
+            System.out.println(descriptions.get(i));
+            System.out.println();
+        }
+    }
     public static void main() {
     }
 }
