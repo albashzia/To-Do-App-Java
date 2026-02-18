@@ -29,10 +29,19 @@ class Main{
     }
 
     static void saveDataToFile(){
-
+        try{
+            PrintWriter printWriter = new PrintWriter(FILE);
+            for (int i = 0; i < titles.size(); i++){
+                printWriter.println(titles.get(i));
+                printWriter.println(descriptions.get(i));
+            }
+        }
+        catch (Exception e2){
+            System.out.println(e2.getMessage());
+        }
     }
 
     public static void main() {
-
+        getDataFromFile();
     }
 }
