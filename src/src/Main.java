@@ -47,6 +47,12 @@ class Main{
         }
     }
 
+    static void displayDescriptions(){
+        for(String s : descriptions){
+            System.out.println(s);
+        }
+    }
+
     public static void main() {
     }
 }
