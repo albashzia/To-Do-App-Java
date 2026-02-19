@@ -84,7 +84,9 @@ class Main{
             System.out.println("6. Exit");
             System.out.print("\nEnter your choice: ");
             choice = input.nextInt();
-
+            if(choice == 1){
+                displayTitles();
+            }
         }
     }
 }
