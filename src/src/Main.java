@@ -83,6 +83,8 @@ class Main{
             System.out.println("5. Remove a task");
             System.out.println("6. Exit");
             System.out.print("\nEnter your choice: ");
+            choice = input.nextInt();
+
         }
     }
 }
