@@ -87,6 +87,9 @@ class Main{
             if(choice == 1){
                 displayTitles();
             }
+            else if(choice == 2){
+                displayDescriptions();
+            }
         }
     }
 }
