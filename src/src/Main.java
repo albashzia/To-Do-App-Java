@@ -70,6 +70,19 @@ class Main{
         descriptions.add(descIn);
         saveDataToFile();
     }
+
     public static void main() {
+        System.out.println("Welcome to Java To-do app");
+        int choice = 0;
+        while(choice != 6){
+            System.out.println("\nMenu");
+            System.out.println("1. Display all titles.");
+            System.out.println("2. Display all descriptions");
+            System.out.println("3. Display all tasks with details");
+            System.out.println("4. Add a task");
+            System.out.println("5. Remove a task");
+            System.out.println("6. Exit");
+            System.out.print("\nEnter your choice: ");
+        }
     }
 }
