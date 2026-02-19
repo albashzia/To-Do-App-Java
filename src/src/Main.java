@@ -60,6 +60,16 @@ class Main{
             System.out.println();
         }
     }
+
+    static void addTask(){
+        System.out.print("Enter task name: ");
+        String taskIn = input.nextLine();
+        System.out.print("Enter task description: ");
+        String descIn = input.nextLine();
+        titles.add(taskIn);
+        descriptions.add(descIn);
+        saveDataToFile();
+    }
     public static void main() {
     }
 }
