@@ -42,8 +42,9 @@ class Main{
     }
 
     static void displayTitles(){
-        for(String s : titles){
-            System.out.println(s);
+        for(int i = 0; i < titles.size(); i++)
+        {
+            System.out.println(titles.get(i));
         }
     }
 
