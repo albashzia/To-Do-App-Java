@@ -90,6 +90,9 @@ class Main{
             else if(choice == 2){
                 displayDescriptions();
             }
+            else if(choice == 3){
+                displayTasksAndDetails();
+            }
         }
     }
 }
