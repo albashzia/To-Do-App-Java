@@ -71,6 +71,10 @@ class Main{
         saveDataToFile();
     }
 
+    static void removeTask(){
+
+    }
+
     public static void main() {
         System.out.println("Welcome to Java To-do app");
         int choice = 0;
