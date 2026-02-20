@@ -76,6 +76,14 @@ class Main{
         int remTaskChoice = input.nextInt();
     }
 
+    static void removeTaskId(){
+
+    }
+
+    static void removeTaskTitle(){
+
+    }
+
     public static void main() {
         System.out.println("Welcome to Java To-do app");
         int choice = 0;
