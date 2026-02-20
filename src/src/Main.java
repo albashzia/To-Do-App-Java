@@ -93,6 +93,9 @@ class Main{
             else if(choice == 3){
                 displayTasksAndDetails();
             }
+            else if(choice == 4){
+                addTask();
+            }
         }
     }
 }
