@@ -49,8 +49,9 @@ class Main{
     }
 
     static void displayDescriptions(){
-        for(String s : descriptions){
-            System.out.println(s);
+        for(int i = 0; i < descriptions.size(); i++)
+        {
+            System.out.println(descriptions.get(i));
         }
     }
 
