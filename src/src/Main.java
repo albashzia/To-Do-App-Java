@@ -66,6 +66,7 @@ class Main{
     static void addTask(){
         System.out.print("Enter task name: ");
         String taskIn = input.nextLine();
+        System.out.println();
         System.out.print("Enter task description: ");
         String descIn = input.nextLine();
         titles.add(taskIn);
