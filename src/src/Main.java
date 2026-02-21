@@ -51,7 +51,7 @@ class Main{
     static void displayDescriptions(){
         for(int i = 0; i < descriptions.size(); i++)
         {
-            System.out.println(descriptions.get(i));
+            System.out.println((i+1)+". "+descriptions.get(i));
         }
     }
 
