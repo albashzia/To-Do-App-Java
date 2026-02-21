@@ -89,7 +89,10 @@ class Main{
         if(taskId>titles.size()){
             System.out.println("No task with such ID exists");
         }
-
+        else{
+            titles.remove(taskId-1);
+            descriptions.remove(taskId-1);
+        }
     }
 
     static void removeTaskTitle(){
