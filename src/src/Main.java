@@ -86,6 +86,10 @@ class Main{
     static void removeTaskId(){
         System.out.print("Enter task ID: ");
         int taskId = input.nextInt();
+        if(taskId>titles.size()){
+            System.out.println("No task with such ID exists");
+        }
+
     }
 
     static void removeTaskTitle(){
