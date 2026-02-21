@@ -44,7 +44,7 @@ class Main{
     static void displayTitles(){
         for(int i = 0; i < titles.size(); i++)
         {
-            System.out.println(titles.get(i));
+            System.out.println((i+1)+". "+titles.get(i));
         }
     }
 
