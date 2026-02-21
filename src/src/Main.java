@@ -78,10 +78,14 @@ class Main{
     static void removeTask(){
         System.out.println("Delete a task by (1) ID or (2) Title: ");
         int remTaskChoice = input.nextInt();
+        if(remTaskChoice == 1){
+            removeTaskId();
+        }
     }
 
     static void removeTaskId(){
-
+        System.out.print("Enter task ID: ");
+        int taskId = input.nextInt();
     }
 
     static void removeTaskTitle(){
