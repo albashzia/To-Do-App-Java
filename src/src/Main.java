@@ -34,6 +34,7 @@ class Main{
             for (int i = 0; i < titles.size(); i++){
                 printWriter.println(titles.get(i));
                 printWriter.println(descriptions.get(i));
+                printWriter.close();
             }
         }
         catch (Exception e2){
