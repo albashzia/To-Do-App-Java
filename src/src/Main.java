@@ -68,7 +68,6 @@ class Main{
     static void addTask(){
         System.out.print("Enter task name: ");
         String taskIn = input.nextLine();
-        System.out.println();
         System.out.print("Enter task description: ");
         String descIn = input.nextLine();
         titles.add(taskIn);
@@ -113,6 +112,7 @@ class Main{
             System.out.println("6. Exit");
             System.out.print("\nEnter your choice: ");
             choice = input.nextInt();
+            input.nextLine();
             if(choice == 1){
                 displayTitles();
             }
