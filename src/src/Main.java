@@ -101,6 +101,7 @@ class Main{
 
     public static void main() {
         System.out.println("Welcome to Java To-do app");
+        getDataFromFile();
         int choice = 0;
         while(choice != 6){
             System.out.println("\nMenu");
