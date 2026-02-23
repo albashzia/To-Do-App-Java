@@ -11,7 +11,7 @@ class Main{
         try{
             File file = new File(FILE);
             if(file.exists()){
-                Scanner sc = new Scanner(FILE);
+                Scanner sc = new Scanner(file);
                 while(sc.hasNextLine()){
                     String tempTitle = sc.nextLine();
                     String tempDescription = sc.nextLine();
