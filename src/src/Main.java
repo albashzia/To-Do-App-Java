@@ -18,6 +18,7 @@ class Main{
                     titles.add(tempTitle);
                     descriptions.add(tempDescription);
                 }
+                sc.close();
             }
             else{
                 System.out.println("File not found. Creating new.");
