@@ -102,7 +102,10 @@ class Main{
     }
 
     public static void main() {
+        System.out.println("\n");
+        System.out.println("=========================");
         System.out.println("Welcome to Java To-do app");
+        System.out.println("=========================");
         getDataFromFile();
         int choice = 0;
         while(choice != 6){
