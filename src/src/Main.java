@@ -24,6 +24,7 @@ class Main{
             }
         }
         catch (Exception e1){
+            System.out.println("Exception E1");
             System.out.println(e1.getMessage());
         }
     }
@@ -38,6 +39,7 @@ class Main{
             printWriter.close();
         }
         catch (Exception e2){
+            System.out.println("Exception E2");
             System.out.println(e2.getMessage());
         }
     }
