@@ -128,6 +128,9 @@ class Main{
             else if(choice == 4){
                 addTask();
             }
+            else if(choice == 5){
+                removeTask();
+            }
         }
     }
 }
