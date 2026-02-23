@@ -30,7 +30,7 @@ class Main{
 
     static void saveDataToFile(){
         try{
-            PrintWriter printWriter = new PrintWriter(new FileWriter(FILE));
+            PrintWriter printWriter = new PrintWriter(new FileWriter(FILE,true));
             for (int i = 0; i < titles.size(); i++){
                 printWriter.println(titles.get(i));
                 printWriter.println(descriptions.get(i));
