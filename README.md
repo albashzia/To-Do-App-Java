@@ -39,7 +39,15 @@ The application uses file handling to store tasks permanently, so data is preser
     </ul>
 </p>
       
-<h2 align = "center">File Structure</h2> 
+<h2 align = "center">File Structure</h2>
+<p>
+<img src="filestructure.png" align="center">
+<br>
+<h4>Important:</h4>
+<ul>
+<li>The order must remain consistent</li>
+<li>Each task strictly uses two lines</li>
+</p>
 
 <h2 align = "center">Installation and Setup</h2> 
 
